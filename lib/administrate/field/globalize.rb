@@ -1,5 +1,6 @@
 require "rails"
 require "administrate/field/globalize/string"
+require "administrate/field/globalize/text"
 
 module Administrate
   module Field
