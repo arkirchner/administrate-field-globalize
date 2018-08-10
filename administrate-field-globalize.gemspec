@@ -1,9 +1,9 @@
-$:.push File.expand_path("lib", __dir__)
-require_relative "lib/administrate/globalize/version.rb"
+$:.push File.expand_path("../lib", __FILE__)
+require_relative "lib/administrate/field/globalize/version.rb"
 
 Gem::Specification.new do |gem|
   gem.name = "administrate-field-globalize"
-  gem.version = Administrate::Globalize.version
+  gem.version = Administrate::Field::Globalize.version
   gem.authors = ["Armin Kirchner"]
   gem.email = ["armin.kirchner@gmail.com"]
   gem.homepage = "https://github.com/arkirchner/administrate-field-globalize"
