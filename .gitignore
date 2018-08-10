@@ -1,1 +1,10 @@
 .rubocop-https---raw-githubusercontent-com-thoughtbot-guides-master-style-ruby--rubocop-yml
+/administrate-field-globalize-string/.bundle/
+/administrate-field-globalize-string/.yardoc
+/administrate-field-globalize-string/Gemfile.lock
+/administrate-field-globalize-string/_yardoc/
+/administrate-field-globalize-string/coverage/
+/administrate-field-globalize-string/doc/
+/administrate-field-globalize-string/pkg/
+/administrate-field-globalize-string/spec/reports/
+/administrate-field-globalize-string/tmp/
