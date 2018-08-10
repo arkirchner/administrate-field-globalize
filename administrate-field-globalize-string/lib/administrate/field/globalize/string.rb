@@ -16,6 +16,14 @@ module Administrate
           data.to_s[0...truncation_length]
         end
 
+        def self.searchable?
+          true
+        end
+
+        def self.translation?
+          true
+        end
+
         private
 
         def truncation_length
