@@ -24,6 +24,10 @@ module Administrate
           true
         end
 
+        def to_partial_path
+          "/fields/globalize/string/#{page}"
+        end
+
         private
 
         def truncation_length
