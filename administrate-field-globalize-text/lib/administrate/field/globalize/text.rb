@@ -9,7 +9,9 @@ module Administrate
         end
 
         def self.permitted_attribute(attr, _options = nil)
-          I18n.available_locales.map { |locale| "#{attr}_#{locale.downcase}" }
+          I18n.available_locales.map do |locale|
+            "#{attr}_#{locale}".downcase.underscore
+          end
         end
 
         def truncate
