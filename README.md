@@ -27,7 +27,7 @@ Getting Started
 Add Administrate::Field::Globalize gems to your Gemfile:
 
 ```ruby
-gem "administrate-field-globalize", "0.0.1.alpha1"
+gem "administrate-field-globalize", "0.0.1.alpha3"
 ```
 
 Add the Administrate Globalize Field to your dashboard.
@@ -37,5 +37,6 @@ Add the Administrate Globalize Field to your dashboard.
     created_at: Field::DateTime,
     update_at: Field::DateTime,
     name: Field::Globalize::String,
+    description: Field::Globalize::Text,
   }.freeze
 ```
